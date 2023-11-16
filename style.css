@@ -10,12 +10,10 @@ body{
     font-size: 14px;
     font-family: arial, sans-serif;
     color:#202124;
-    display: flex;
 }
 header{
     width: 100%;
-    height: 20px;
-    background-color:blue;
+    height: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -29,23 +27,124 @@ header{
     display: flex;
     justify-content: space-around;
 }
+a{
+    color: black;
+    outline: none;
+    text-decoration: none;
+
+}
 #correo{
     border: none;
+    background-color: white;
 }
 #imagen{
     border:none;
+    background-color: white;
 }
-header img{
+#puntos{
     width: 20px;
     height: 20px;
+    border-radius: 100%;
+    background-color: white;
 }
 #icono{
     border:none;
 }
+#perfil{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
 #Sesion{
-    border:#1E90FF;
-color: white;
-    background-color: #1E90FF;
-    width: 80px;
-    height: 30px;
+    border:none;
+}
+main{
+    width: 100%;
+    height: auto;
+        background-color: aqua;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.logo{
+
+}
+#logo{
+    width: 100%;
+    height: 180px;
+
+}
+.buscador{
+    padding: 15px;
+    width: 45%;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    border: groove;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#lupita{
+    width: 10%;
+}
+#cajadetexto{
+    width: 80%;
+}
+#iconobuscador{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#lupa{
+    width: 20px;
+    height: 20px;
+}
+#micro{
+    width: 20px;
+    height: 20px;
+}
+#buscaimagen{
+    width: 20px;
+    height: 20px; 
+}
+#texto{
+    width: 90%;
+    height: 38px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.Botonesinferiores{
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.botonGoogle{
+    padding-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.suerte{
+    width: 50%;
+    padding-left: 20px;
+}
+#Buscarcongoogle{
+    width: 150px;
+    height: 35px;
+    border:none;
+    background-color: white;
+}
+
+#suerte{
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    border:none;
+}
+.Suerte:hover{
+    background:yellow;
 }
