@@ -6,33 +6,45 @@
 body{
     background-color: white;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     font-size: 14px;
     font-family: arial, sans-serif;
     color:#202124;
 }
+/*Propiedades o estilos generales a los botones*/
+button{
+    font-size: 14px;
+    border: none;
+    background-color: #dadce0;
+}
+/*Estilos a la zona header*/
 header{
     width: 100%;
     height: 40px;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 
 }
+/*Estilos a la clase 1 dentro de header*/
 .uno{
     width: 80%;
 }
+/*Estilos a la clase botones*/
 #botones{
     width: 20%;
     display: flex;
     justify-content: space-around;
 }
+/*Estilos generales a las ligas*/
 a{
     color: black;
     outline: none;
     text-decoration: none;
 
 }
+/*Estilos a los botones principales de header*/
 #correo{
     border: none;
     background-color: white;
@@ -42,42 +54,55 @@ a{
     background-color: white;
 }
 #puntos{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border-radius: 100%;
     background-color: white;
 }
+#Sesion{
+    border:none;
+    background-color: white;
+}
+/*Estilos a las imagenes usadas en la zona header*/
 #icono{
     border:none;
+    background-color: white;
 }
 #perfil{
     width: 40px;
     height: 40px;
     border-radius: 100%;
 }
-#Sesion{
-    border:none;
-}
+/*Estilos a la zona main*/
 main{
     width: 100%;
-    height: auto;
-        background-color: aqua;
+    height: 480px;
         display:flex;
         flex-direction: column;
         align-items: center;
     }
+/*Estilos a la clase del logo de Google*/
 .logo{
-
-}
-#logo{
     width: 100%;
-    height: 180px;
+    height: 130px;
+    padding-top:0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: star;
 
 }
+/*Estilos al logo Google*/
+#logo{
+    width: 20%;
+    height: 100px;
+
+}
+/*Estilos al buscador de Google*/
 .buscador{
     padding: 15px;
     width: 45%;
-    height: 45px;
+    height: 50px;
     background-color: white;
     border-radius: 20px;
     border: groove;
@@ -85,6 +110,7 @@ main{
     align-items: center;
     justify-content:space-between;
 }
+/*Estilos a las clases que estan dentro del buscador de Google*/
 #lupita{
     width: 10%;
 }
@@ -96,18 +122,20 @@ main{
     display: flex;
     justify-content: space-between;
 }
+/*Estilos a las imagenes usadas*/
 #lupa{
     width: 20px;
     height: 20px;
 }
 #micro{
-    width: 20px;
+    width: 15px;
     height: 20px;
 }
 #buscaimagen{
     width: 20px;
-    height: 20px; 
+    height: 23px; 
 }
+/*Estilos a la caja de entrada de texto*/
 #texto{
     width: 90%;
     height: 38px;
@@ -115,6 +143,7 @@ main{
     outline: none;
     border-radius: 20px;
 }
+/*Estilos a la clase de los botones inferiores*/
 .Botonesinferiores{
     width: 100%;
     height: 80px;
@@ -122,29 +151,72 @@ main{
     display: flex;
     flex-direction: row;
 }
+/*Estilos a la clase del boton de Google*/
 .botonGoogle{
     padding-right: 20px;
     width: 50%;
     display: flex;
     justify-content: end;
 }
+/*Estilos a la clase de voy a tener suerte*/
 .suerte{
     width: 50%;
     padding-left: 20px;
 }
+/*Estilos de los dos botones utulizados*/
 #Buscarcongoogle{
     width: 150px;
     height: 35px;
     border:none;
-    background-color: white;
+    background-color:rgb(247, 247, 242);
 }
 
 #suerte{
     width: 150px;
     height: 35px;
-    background-color: white;
+    background-color:rgb(247, 247, 242);
     border:none;
 }
-.Suerte:hover{
-    background:yellow;
+/*Estilos del pies de página*/
+footer{
+    background-color:blue;
+    width: 100%;
+    height: 80px;
+
+}/*Estilos de las dos clases utilizadas*/
+.pais{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(247, 247, 242);
+    padding-left: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border:1px solid #dadce0;
 }
+.linksfinales{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(247, 247, 242);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:20px;
+    border: solid 1px #dadce0;
+}
+/*Estilos de las clases que dividen a la clase de "linksfinales"*/
+.parte1{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.parte2{
+    width: 40%;
+}
+.parte3{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
