@@ -119,9 +119,9 @@ main {
     padding: 15px;
     width: 45%;
     height: 50px;
-    background-color: white;
+    background-color:transparent;
     border-radius: 20px;
-    border: groove;
+    border: 2px solid beige;
     display: flex;
     align-items: center;
     justify-content: space-between;
