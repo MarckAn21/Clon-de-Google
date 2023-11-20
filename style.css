@@ -8,14 +8,14 @@ body {
     background-color: white;
     width: 100vw;
     height: 100vh;
-    font-size: 14px;
+    font-size: 90%;
     font-family: arial, sans-serif;
     color: #202124;
 }
 
 /*Propiedades o estilos generales a los botones*/
 button {
-    font-size: 14px;
+    font-size: 100%;
     border: none;
     background-color: #dadce0;
 }
@@ -23,7 +23,7 @@ button {
 /*Estilos a la zona header*/
 header {
     width: 100%;
-    height: 40px;
+    height: 15%;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -89,7 +89,7 @@ a {
 /*Estilos a la zona main*/
 main {
     width: 100%;
-    height: 480px;
+    height: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@ main {
 /*Estilos a la clase del logo de Google*/
 .logo {
     width: 100%;
-    height: 130px;
+    height: 30%;
     padding-top: 0;
     margin: 0;
     display: flex;
@@ -110,7 +110,7 @@ main {
 /*Estilos al logo Google*/
 #logo {
     width: 20%;
-    height: 100px;
+    height: 70%;
 
 }
 
@@ -144,24 +144,24 @@ main {
 
 /*Estilos a las imagenes usadas*/
 #lupa {
-    width: 20px;
-    height: 20px;
+    width: 35%;
+    height: 15%;
 }
 
 #micro {
-    width: 15px;
-    height: 20px;
+    width: 25%;
+    height: 15%;
 }
 
 #buscaimagen {
-    width: 20px;
-    height: 23px;
+    width: 35%;
+    height: 15%;
 }
 
 /*Estilos a la caja de entrada de texto*/
 #texto {
     width: 90%;
-    height: 38px;
+    height: 100%;
     border: none;
     outline: none;
     border-radius: 20px;
@@ -170,7 +170,7 @@ main {
 /*Estilos a la clase de los botones inferiores*/
 .Botonesinferiores {
     width: 100%;
-    height: 80px;
+    height: 25%;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -192,15 +192,15 @@ main {
 
 /*Estilos de los dos botones utulizados*/
 #Buscarcongoogle {
-    width: 150px;
-    height: 35px;
+    width: 25%;
+    height: 20%;
     border: none;
     background-color: rgb(247, 247, 242);
 }
 
 #suerte {
-    width: 150px;
-    height: 35px;
+    width: 25%;
+    height: 20%;
     background-color: rgb(247, 247, 242);
     border: none;
 }
@@ -209,14 +209,14 @@ main {
 footer {
     background-color: blue;
     width: 100%;
-    height: 80px;
+    height: 10%;
 
 }
 
 /*Estilos de las dos clases utilizadas*/
 .pais {
     width: 100%;
-    height: 40px;
+    height: 50%;
     background-color: rgb(247, 247, 242);
     padding-left: 38px;
     display: flex;
@@ -227,12 +227,12 @@ footer {
 
 .linksfinales {
     width: 100%;
-    height: 40px;
+    height: 50%;
     background-color: rgb(247, 247, 242);
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 20px;
+    padding: 0;
     border: solid 1px #dadce0;
 }
 
